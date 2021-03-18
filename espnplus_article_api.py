@@ -18,7 +18,11 @@ for x in json:
        print(x.get('categories')[0].get('league').get('description'))
        print(\"---\") 
        
-       articles.append({'League':x.get('section'), 'Headline':x.get('headline'),'Byline':x.get('byline'),'Description':x.get('description'),'Link':x.get('links').get('web').get('href')})
+       articles.append({'League':x.get('section'), \
+                        'Headline':x.get('headline'),\
+                        'Byline':x.get('byline'),\
+                        'Description':x.get('description'),\
+                        'Link':x.get('links').get('web').get('href')})
 
 articles
 
