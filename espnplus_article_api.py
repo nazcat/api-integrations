@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import requests
 
 url = 'http://now.core.api.espn.com/allsports/apis/v1/now?content=story&enable=authors,headshots,peers&insider=only'
